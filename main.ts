@@ -2,7 +2,16 @@
  *
  * Created by: Mr. Coxall
  * Created on: Sep 2020
- * This program ...
+ * This program shows the temperature of a microbit
 */
 
-basic.showString('Hello, World!')
+basic.clearScreen()
+basic.pause(1000)
+basic.showIcon(IconNames.Happy)
+
+let temperature = input.temperature()
+
+input.onButtonPressed(Button.A, function(){
+  temperature = input.temperature()
+  basic.showNumber(input.temperature())
+})
