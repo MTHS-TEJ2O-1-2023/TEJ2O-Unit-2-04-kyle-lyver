@@ -1,6 +1,6 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
- * Created by: Mr. Coxall
+ * Created by: Kyle Lyver
  * Created on: Sep 2023
  * This program shows the temperature of a microbit
 */
