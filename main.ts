@@ -9,7 +9,7 @@ basic.clearScreen()
 basic.pause(1000)
 basic.showIcon(IconNames.Happy)
 
-//variable
+// variable
 let temperature: number
 
 input.onButtonPressed(Button.A, function () {
